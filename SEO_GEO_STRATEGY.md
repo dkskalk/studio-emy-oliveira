@@ -5,8 +5,8 @@
 
 ```html
 <title>Dra. Emely Oliveira | Biomédica Esteta | Harmonização Facial & Peles Negras no Rio de Janeiro</title>
-<meta name="description" content="Dra. Emely Oliveira (CRBM 07300) — Especialista em Harmonização Facial de Alta Precisão, Método Emy Oliveira e referência em tratamentos para peles negras e fototipos altos na Barra da Tijuca, RJ.">
-<meta name="keywords" content="Dra Emely Oliveira, Harmonização Facial Barra da Tijuca, Biomédica Esteta Rio de Janeiro, Peles Negras Estética, Preenchimento Labial, Ultraformer 3, Clareamento Íntimo, CRBM 07300">
+<meta name="description" content="Dra. Emely Oliveira (CRBM 07300) — Especialista em Harmonização Facial de Alta Precisão, Método Emely Oliveira e referência em tratamentos para peles negras e fototipos altos na Barra da Tijuca, RJ.">
+<meta name="keywords" content="Dra Emely Oliveira, Instituto Emely Oliveira, Harmonização Facial Barra da Tijuca, Biomédica Esteta Rio de Janeiro, Peles Negras Estética, Preenchimento Labial, Ultraformer 3, Clareamento Íntimo, CRBM 07300">
 ```
 
 ---
@@ -24,7 +24,7 @@ Integrado nativamente ao código HTML da aplicação para garantir indexação p
       "@id": "https://studioemyoliveira.com/#physician",
       "name": "Dra. Emely Oliveira",
       "medicalSpecialty": ["Dermatologic", "CosmeticProcedure"],
-      "description": "Biomédica Esteta especialista em Harmonização Facial natural, Método Emy Oliveira e tratamento de peles negras e fototipos altos.",
+      "description": "Biomédica Esteta especialista em Harmonização Facial natural, Método Emely Oliveira e tratamento de peles negras e fototipos altos.",
       "identifier": "CRBM 07300",
       "telephone": "+55-21-98252-1121",
       "address": [
@@ -69,13 +69,13 @@ Integrado nativamente ao código HTML da aplicação para garantir indexação p
       "url": "https://studioemyoliveira.com",
       "sameAs": [
         "https://www.instagram.com/draemelyoliveira",
-        "https://www.instagram.com/studioemyoliveira"
+        "https://www.instagram.com/institutoemelyoliveira"
       ]
     },
     {
       "@type": "MedicalBusiness",
       "@id": "https://studioemyoliveira.com/#business",
-      "name": "Studio Emely Oliveira — Estética Avançada & Harmonização",
+      "name": "Instituto Emely Oliveira — Estética Avançada & Harmonização",
       "image": "https://studioemyoliveira.com/logo.jpg",
       "telePhone": "+55-21-98252-1121",
       "priceRange": "$$$$",

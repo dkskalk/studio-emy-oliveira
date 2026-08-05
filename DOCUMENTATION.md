@@ -1,8 +1,8 @@
-# DOCUMENTAÇÃO E ESTRUTURA DO PROJETO — STUDIO EMY OLIVEIRA – ESTÉTICA AVANÇADA
+# DOCUMENTAÇÃO E ESTRUTURA DO PROJETO — INSTITUTO EMELY OLIVEIRA – ESTÉTICA AVANÇADA
 ## Registro Profissional, Arquitetura de Conteúdo & Seções Institucionais
 
 ### 1. DADOS DE REGISTRO E CREDENCIAIS DE AUTORIDADE
-- **Marca**: Studio Emy Oliveira – Estética Avançada
+- **Marca**: Instituto Emely Oliveira – Estética Avançada
 - **Responsável Técnica**: Dra. Emely Oliveira
 - **Titulação**: Biomédica Esteta | Especialista em Harmonização Facial e Peles Negras
 - **Registro Profissional**: CRBM 07300 (Conselho Regional de Biomedicina)
@@ -18,7 +18,7 @@
 
 ```
 01. HERO SECTION (DOBRA 1: TELA CHEIA 100VH)
-    ├── Nome de Marca: Studio Emy Oliveira – Estética Avançada
+    ├── Nome de Marca: Instituto Emely Oliveira – Estética Avançada
     ├── Imagem de Fundo (Emely.jpeg) & Placa 3D na Parede (Logo.jpeg)
     └── 4 Especialidades & Referências Chave:
         ✦ Harmonização Facial
@@ -30,7 +30,7 @@
     ├── Trajetória de empreendedorismo iniciada aos 14 anos, 4 clínicas, +7.000 pacientes
     └── Preservada integralmente sem alterações estruturais
 
-03. NOSSA FILOSOFIA (O MÉTODO EMY OLIVEIRA)
+03. NOSSA FILOSOFIA (O MÉTODO EMELY OLIVEIRA)
     └── 3 Etapas: Avaliação Anatomofuncional → Preparo Tecidual → Harmonização de Alta Precisão
 
 04. PROCEDIMENTOS & PROTOCOLOS (DA 3ª DOBRA PARA BAIXO — 4 GRUPOS FOTOGRÁFICOS)
@@ -114,4 +114,4 @@ Conforme especificação do projeto, onde houver imagens adicionais a serem troc
 - **WhatsApp Direto**: `+55 21 98252-1121`
 - **Mensagem Padrão**: *"Olá! Será um prazer conversar com você. Como posso ajudar?"*
 - **Instagram Pessoal**: `@draemelyoliveira`
-- **Instagram Estúdio**: `@studioemyoliveira`
+- **Instagram Estúdio**: `@institutoemelyoliveira`

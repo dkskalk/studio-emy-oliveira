@@ -24,7 +24,7 @@ O portal web foi projetado para oferecer uma experiência digital imersiva, ultr
 [ INTERATIVIDADE & ANIMAÇÕES ]
   ├── Intersection Observer API (Scroll Reveal Suave)
   ├── Dynamic Form Validation (Agendamento VIP & Contato)
-  ├── Custom Timeline & Interactive Tabs (Método Emy Oliveira)
+  ├── Custom Timeline & Interactive Tabs (Método Emely Oliveira)
   └── Floating WhatsApp Widget com Resposta Automática VIP
 
 [ PERFORMANCE & SEO LOCAL ]

@@ -1550,6 +1550,28 @@ textarea.form-control {
 }
 
 @media (max-width: 1024px) {
+  .header-navbar {
+    padding: 0.65rem 0.85rem !important;
+  }
+  .header-navbar.scrolled {
+    padding: 0.65rem 0.85rem !important;
+  }
+  .nav-container {
+    gap: 0.4rem;
+  }
+  .nav-logo-link {
+    gap: 0.45rem;
+    margin-left: 0;
+  }
+  .nav-logo-round {
+    width: 36px;
+    height: 36px;
+  }
+  .nav-brand-title {
+    font-size: 0.84rem;
+    letter-spacing: 0.05em;
+  }
+
   .hero-section {
     position: relative;
     min-height: auto;
@@ -1589,7 +1611,7 @@ textarea.form-control {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 3.75rem;
+    padding-top: 3.5rem;
     gap: 0;
     width: 100%;
     max-width: 100%;
@@ -1600,8 +1622,8 @@ textarea.form-control {
   }
   .hero-content {
     order: 1;
-    min-height: calc(100vh - 3.75rem);
-    height: calc(100vh - 3.75rem);
+    min-height: calc(100vh - 3.5rem);
+    height: calc(100vh - 3.5rem);
     width: 100%;
     max-width: 100%;
     display: flex;
@@ -1609,7 +1631,7 @@ textarea.form-control {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0.5rem 0 1.5rem;
+    padding: 0.5rem 0 1.25rem;
     box-sizing: border-box;
   }
   .hero-badge-tag {
@@ -1701,18 +1723,18 @@ textarea.form-control {
   .hero-desktop-cta {
     display: none !important;
   }
-  /* Dobra 2 no Mobile: Brasão 3D Isolado, Compacto, Subido e Curto */
+  /* Dobra 2 no Mobile: Brasão 3D Subido com Espaçamento Simétrico */
   .hero-wall-box {
     order: 2;
     position: relative;
     z-index: 5;
     width: 100%;
     max-width: 290px;
-    margin: 1.5rem auto 2.5rem;
+    margin: 1.25rem auto 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1.75rem 1.25rem;
+    padding: 1.5rem 1.25rem;
     background: rgba(255, 253, 249, 0.98);
     border: 1px solid var(--border-gold-subtle);
     border-radius: 12px;

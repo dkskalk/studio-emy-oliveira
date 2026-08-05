@@ -402,6 +402,10 @@ p {
   color: var(--color-text-muted);
 }
 
+.hero-mobile-wall-btn {
+  display: none !important;
+}
+
 /* Lado Direito: Conteúdo Institucional do Hero */
 .hero-content {
   display: flex;
@@ -1533,27 +1537,78 @@ textarea.form-control {
 
 @media (max-width: 1024px) {
   .hero-container {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding-top: 7rem;
-    gap: 2.5rem;
+    padding-top: 5rem;
+    gap: 3rem;
   }
-  .hero-bg-img {
-    object-position: center top;
-    opacity: 0.35;
+  .hero-content {
+    order: 1;
+    min-height: calc(100vh - 5.5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
   }
-  .hero-overlay {
-    background: linear-gradient(180deg, rgba(250,248,245,0.95) 0%, rgba(250,248,245,0.85) 100%);
+  .hero-badge-tag {
+    font-size: 0.72rem;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.65rem;
   }
-  .hero-wall-box {
-    max-width: 320px;
+  .hero-title {
+    font-size: 2.1rem;
+    line-height: 1.15;
+    margin-bottom: 0.65rem;
   }
   .hero-subtitle {
+    font-size: 0.88rem;
+    line-height: 1.5;
+    margin-bottom: 0.85rem;
+    max-width: 92%;
     margin-left: auto;
     margin-right: auto;
   }
+  .hero-specialties-tags {
+    gap: 0.35rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .hero-spec-tag {
+    font-size: 0.68rem;
+    padding: 0.3rem 0.6rem;
+  }
   .hero-actions {
     justify-content: center;
+    margin-top: 0.4rem;
+  }
+  .hero-desktop-cta {
+    display: none !important;
+  }
+  .hero-wall-box {
+    order: 2;
+    max-width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.25rem 1.5rem;
+  }
+  .hero-mobile-wall-btn {
+    display: inline-flex !important;
+    margin-top: 1.5rem;
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+    text-align: center;
+  }
+  .hero-bg-img {
+    object-position: center top;
+    opacity: 0.38;
+  }
+  .hero-overlay {
+    background: linear-gradient(180deg, rgba(250,248,245,0.94) 0%, rgba(250,248,245,0.85) 100%);
   }
   .about-grid, .diff-grid, .contact-grid {
     grid-template-columns: 1fr;
@@ -1580,7 +1635,7 @@ textarea.form-control {
     grid-template-columns: 1fr;
   }
   .hero-title {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
   .section-title {
     font-size: 2.1rem;

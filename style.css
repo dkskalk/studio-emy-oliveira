@@ -1787,15 +1787,15 @@ textarea.form-control {
   .hero-desktop-cta {
     display: none !important;
   }
-  /* Dobra 2 no Mobile: Brasão 3D Sozinho na Segunda Dobra */
+  /* Dobra 2 no Mobile: Brasão 3D Posicionado no Topo da Segunda Dobra */
   .hero-wall-wrapper {
     order: 2;
     width: 100%;
-    min-height: calc(100vh - 3.5rem);
+    min-height: auto;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    padding: 2rem 0;
+    padding: 1.25rem 0 3.5rem;
     box-sizing: border-box;
   }
   .hero-wall-box {
